@@ -1,6 +1,5 @@
-from simple_terminal_control import get_keys
 from simple_terminal_control.position import TerminalPosition, TerminalPositionDelta
-from simple_terminal_control.keys import Arrow, Click, Delete, Scroll, Tab, Enter
+from simple_terminal_control.keys import Arrow, Click, Delete, Scroll, Tab, Enter, get_keys
 
 
 def main():

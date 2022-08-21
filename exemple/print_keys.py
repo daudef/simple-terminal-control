@@ -1,6 +1,6 @@
 from argparse import ArgumentParser
 
-from simple_terminal_control import get_keys
+from simple_terminal_control.keys import get_keys
 from simple_terminal_control.util.debug import key_to_string
 
 
