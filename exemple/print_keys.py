@@ -6,7 +6,7 @@ from simple_terminal_control.util.debug import key_to_string
 
 def main():
     parser = ArgumentParser()
-    parser.add_argument("--mouse", action="store_true", description="Report mouse events")
+    parser.add_argument("--mouse", action="store_true", help="Report mouse events")
     args = parser.parse_args()
 
     for key in get_keys(report_mouse=args.mouse):
