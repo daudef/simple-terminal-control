@@ -12,7 +12,7 @@ setup(
     description="Higher level control for the terminal",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/daudef",
+    url="https://github.com/daudef/simple-terminal-control",
     author="Florian Daude",
     author_email="floriandaude@hotmail.fr",
     classifiers=[
