@@ -10,10 +10,12 @@ class Delete:
     alt: bool
 
 
+@dataclass(frozen=True)
 class Tab:
     pass
 
 
+@dataclass(frozen=True)
 class Enter:
     pass
 
